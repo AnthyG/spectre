@@ -15,7 +15,6 @@
   left: 50%;
   position: absolute;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
@@ -32,26 +31,22 @@
   border-right: 0;
   content: "";
   height: .65em;
-  -webkit-transform: translate(-25%, -50%) rotate(-45deg);
   -ms-transform: translate(-25%, -50%) rotate(-45deg);
   transform: translate(-25%, -50%) rotate(-45deg);
   width: .65em;
 }
 .icon-arrow-down,
 .icon-downward {
-  -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
 .icon-arrow-right,
 .icon-forward {
-  -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 .icon-arrow-up,
 .icon-upward {
-  -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
@@ -59,7 +54,6 @@
 .icon-back::before,
 .icon-forward::before,
 .icon-upward::before {
-  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
   -ms-transform: translate(-50%, -50%) rotate(-45deg);
   transform: translate(-50%, -50%) rotate(-45deg);
 }
@@ -79,7 +73,6 @@
   border-top: .3em solid currentColor;
   content: "";
   height: 0;
-  -webkit-transform: translate(-50%, -25%);
   -ms-transform: translate(-50%, -25%);
   transform: translate(-50%, -25%);
   width: 0;
@@ -111,23 +104,19 @@
 }
 .icon-resize-horiz::before,
 .icon-resize-vert::before {
-  -webkit-transform: translate(-50%, -90%) rotate(45deg);
   -ms-transform: translate(-50%, -90%) rotate(45deg);
   transform: translate(-50%, -90%) rotate(45deg);
 }
 .icon-resize-horiz::after,
 .icon-resize-vert::after {
-  -webkit-transform: translate(-50%, -10%) rotate(225deg);
   -ms-transform: translate(-50%, -10%) rotate(225deg);
   transform: translate(-50%, -10%) rotate(225deg);
 }
 .icon-resize-horiz::before {
-  -webkit-transform: translate(-90%, -50%) rotate(-45deg);
   -ms-transform: translate(-90%, -50%) rotate(-45deg);
   transform: translate(-90%, -50%) rotate(-45deg);
 }
 .icon-resize-horiz::after {
-  -webkit-transform: translate(-10%, -50%) rotate(135deg);
   -ms-transform: translate(-10%, -50%) rotate(135deg);
   transform: translate(-10%, -50%) rotate(135deg);
 }
@@ -166,7 +155,6 @@
 }
 .icon-cross::before,
 .icon-cross::after {
-  -webkit-transform: translate(-50%, -50%) rotate(45deg);
   -ms-transform: translate(-50%, -50%) rotate(45deg);
   transform: translate(-50%, -50%) rotate(45deg);
 }
@@ -176,7 +164,6 @@
   border-top: 0;
   content: "";
   height: .5em;
-  -webkit-transform: translate(-50%, -75%) rotate(-45deg);
   -ms-transform: translate(-50%, -75%) rotate(-45deg);
   transform: translate(-50%, -75%) rotate(-45deg);
   width: .9em;
@@ -206,7 +193,6 @@
   height: .75em;
   left: 5%;
   top: 5%;
-  -webkit-transform: translate(0, 0) rotate(45deg);
   -ms-transform: translate(0, 0) rotate(45deg);
   transform: translate(0, 0) rotate(45deg);
   width: .75em;
@@ -217,7 +203,6 @@
   height: .2rem;
   left: 80%;
   top: 80%;
-  -webkit-transform: translate(-50%, -50%) rotate(45deg);
   -ms-transform: translate(-50%, -50%) rotate(45deg);
   transform: translate(-50%, -50%) rotate(45deg);
   width: .4em;
@@ -226,7 +211,6 @@
   border: .2rem solid currentColor;
   content: "";
   height: .4em;
-  -webkit-transform: translate(-40%, -60%) rotate(-45deg);
   -ms-transform: translate(-40%, -60%) rotate(-45deg);
   transform: translate(-40%, -60%) rotate(-45deg);
   width: .85em;
@@ -239,7 +223,6 @@
   height: 0;
   left: 10%;
   top: 95%;
-  -webkit-transform: translate(0, -100%);
   -ms-transform: translate(0, -100%);
   transform: translate(0, -100%);
   width: 0;
@@ -280,7 +263,6 @@
   height: .45em;
   left: 100%;
   top: 36%;
-  -webkit-transform: translate(-125%, -50%) rotate(135deg);
   -ms-transform: translate(-125%, -50%) rotate(135deg);
   transform: translate(-125%, -50%) rotate(135deg);
   width: .45em;
@@ -328,7 +310,6 @@
   border-radius: .2rem;
   content: "";
   height: 50%;
-  -webkit-transform: translate(-50%, 35%) rotate(-45deg) skew(15deg, 15deg);
   -ms-transform: translate(-50%, 35%) rotate(-45deg) skew(15deg, 15deg);
   transform: translate(-50%, 35%) rotate(-45deg) skew(15deg, 15deg);
   width: 50%;
@@ -344,7 +325,6 @@
   border-right: 0;
   content: "";
   height: .5em;
-  -webkit-transform: translate(-50%, -60%) rotate(-135deg);
   -ms-transform: translate(-50%, -60%) rotate(-135deg);
   transform: translate(-50%, -60%) rotate(-135deg);
   width: .5em;
@@ -358,7 +338,6 @@
   width: .2rem;
 }
 .icon-upload::before {
-  -webkit-transform: translate(-50%, -60%) rotate(45deg);
   -ms-transform: translate(-50%, -60%) rotate(45deg);
   transform: translate(-50%, -60%) rotate(45deg);
 }
@@ -373,7 +352,6 @@
   background: currentColor;
   content: "";
   height: .4em;
-  -webkit-transform: translate(-50%, -75%);
   -ms-transform: translate(-50%, -75%);
   transform: translate(-50%, -75%);
   width: .2rem;
@@ -382,10 +360,8 @@
   background: currentColor;
   content: "";
   height: .3em;
-  -webkit-transform: translate(-50%, -75%) rotate(90deg);
   -ms-transform: translate(-50%, -75%) rotate(90deg);
   transform: translate(-50%, -75%) rotate(90deg);
-  -webkit-transform-origin: 50% 90%;
   -ms-transform-origin: 50% 90%;
   transform-origin: 50% 90%;
   width: .2rem;
@@ -403,7 +379,6 @@
   border-top: 0;
   content: "";
   height: .5em;
-  -webkit-transform: translate(-50%, -90%) rotate(-45deg) skew(10deg, 10deg);
   -ms-transform: translate(-50%, -90%) rotate(-45deg) skew(10deg, 10deg);
   transform: translate(-50%, -90%) rotate(-45deg) skew(10deg, 10deg);
   width: .5em;
@@ -451,12 +426,10 @@
   width: .75em;
 }
 .icon-link::before {
-  -webkit-transform: translate(-70%, -45%) rotate(-45deg);
   -ms-transform: translate(-70%, -45%) rotate(-45deg);
   transform: translate(-70%, -45%) rotate(-45deg);
 }
 .icon-link::after {
-  -webkit-transform: translate(-30%, -55%) rotate(135deg);
   -ms-transform: translate(-30%, -55%) rotate(135deg);
   transform: translate(-30%, -55%) rotate(135deg);
 }
