@@ -89,7 +89,7 @@ dl {
 }
 mark {
   background: @highlight-color;
-  color: @body-font-color;
+  color: @light-color;
   .label-base();
 }
 kbd {
@@ -101,4 +101,14 @@ abbr[title] {
   border-bottom: .1rem dotted;
   cursor: help;
   text-decoration: none;
+}
+
+// maown
+::-moz-selection {
+    color: @dark-color;
+    background: @secondary-color;
+}
+::selection {
+    color: @dark-color;
+    background: @secondary-color;
 }

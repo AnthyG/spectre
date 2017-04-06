@@ -8,12 +8,13 @@
 
   &[data-content]::before {
     background: @light-color;
-    color: @gray-color-light;
+    color: @dark-color;
     content: attr(data-content);
     display: inline-block;
     font-size: @font-size-sm;
     padding: 0 .8rem;
     transform: translateY(-1.1rem);
+    border-radius: .2rem;
   }
 }
 
