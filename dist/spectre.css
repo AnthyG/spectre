@@ -1139,7 +1139,7 @@ input.disabled + .form-icon {
 code {
   background: #263238;
   border-radius: .2rem;
-  color: #1de9b6;
+  color: #eee;
   display: inline-block;
   line-height: 1;
   padding: .3rem .4rem;
