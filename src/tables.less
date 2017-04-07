@@ -8,7 +8,7 @@
   &.table-striped {
     tbody {
       tr:nth-of-type(odd) {
-        background: @bg-color;
+        background: fade(lighten(@bg-color-dark, 25%), 10%);
       }
     }
   }
@@ -17,7 +17,7 @@
     tbody {
       tr {
         &:hover {
-          background: @bg-color-dark;
+          background: fade(lighten(@bg-color-dark, 25%), 20%);
         }
       }
     }
@@ -28,7 +28,7 @@
     tbody {
       tr {
         &.active {
-          background: @bg-color-dark;
+          background: fade(lighten(@bg-color-dark, 25%), 20%);
         }
       }
     }

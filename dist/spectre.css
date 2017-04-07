@@ -575,14 +575,14 @@ abbr[title] {
   width: 100%;
 }
 .table.table-striped tbody tr:nth-of-type(odd) {
-  background: #263238;
+  background: rgba(83, 110, 123, .1);
 }
 .table.table-hover tbody tr:hover {
-  background: #202a2f;
+  background: rgba(83, 110, 123, .2);
 }
 .table tbody tr.active,
 .table.table-striped tbody tr.active {
-  background: #202a2f;
+  background: rgba(83, 110, 123, .2);
 }
 .table td {
   border-bottom: .1rem solid #c7d3d9;
