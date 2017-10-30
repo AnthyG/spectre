@@ -398,7 +398,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 a {
-  color: #1de9b6;
+  color: #12b78e;
   outline: none;
   text-decoration: none;
 }
@@ -409,7 +409,7 @@ a:focus,
 a:hover,
 a:active,
 a.active {
-  color: #13c095;
+  color: #0d896a;
   text-decoration: underline;
 }
 h1,
@@ -599,7 +599,7 @@ abbr[title] {
   background: #eee;
   border: .1rem solid #1de9b6;
   border-radius: .2rem;
-  color: #1de9b6;
+  color: #12b78e;
   cursor: pointer;
   display: inline-block;
   font-size: 1.4rem;
@@ -666,13 +666,13 @@ abbr[title] {
 .btn.btn-link {
   background: transparent;
   border-color: transparent;
-  color: #1de9b6;
+  color: #12b78e;
 }
 .btn.btn-link:focus,
 .btn.btn-link:hover,
 .btn.btn-link:active,
 .btn.btn-link.active {
-  color: #13c095;
+  color: #0d896a;
 }
 .btn.btn-sm {
   font-size: 1.2rem;
@@ -2177,12 +2177,12 @@ code {
 }
 .tab .tab-item a:focus,
 .tab .tab-item a:hover {
-  color: #1de9b6;
+  color: #12b78e;
 }
 .tab .tab-item.active a,
 .tab .tab-item a.active {
   border-bottom-color: #1de9b6;
-  color: #1de9b6;
+  color: #12b78e;
 }
 .tab.tab-block .tab-item {
   -ms-flex: 1 0 0;
